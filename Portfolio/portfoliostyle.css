@@ -1,0 +1,35 @@
+.menu	{
+	float:left;
+}
+li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+	font-family: "Quicksand", sans-serif;
+}
+
+.contacto {
+	float:right;
+	margin-right: 50px;
+}
+.clearfix {
+	clear: both;
+}
+.encabezado {
+	background-color: #b7b7b7;
+	height: 50px;
+	z-index: 1;
+	position: fixed;
+}
+.img_contactos {
+	width: 25px;
+}
+.fondo_uno {
+	background-image: url('./imagenes/background.jpg');
+	height: 1000px;
+	position: relative;
+}
+.pie {
+	height: 50px;
+	background-color: #b7b7b7;
+}

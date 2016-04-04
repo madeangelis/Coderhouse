@@ -1,0 +1,136 @@
+.logo {
+	float: left;
+	padding: 20px;
+}
+nav {
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+}
+ul {
+	margin-right: 100px;
+}
+li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+}
+#home {
+	height: 15px;
+	padding-left: 100px;
+}
+.banner {
+	padding: 100px 50px;
+	background-size: cover;
+	text-align: center;
+	height: 300px;
+	margin: 0px;
+	position: relative;
+	background-image: url(./assest/indexbanner-bg3.jpg);
+	color:#fff;
+	font-family: 'Open Sans';
+	clear: both;
+}
+#texto_banner {
+	padding-top: 100px;
+	padding-right: 300px;
+	font-size: 20px;
+}
+.circuloscolores {
+	text-align: center;
+	font-family: Raleway;
+}
+.uno {
+	float: left;
+	margin: 20px;
+}
+.azul{
+	margin-left: 200px;
+}
+.dos {
+	float: left;
+	transform: rotate(90deg);
+	margin: 30px 50px 50px 20px;
+
+}
+.clearfix {
+	clear: both;
+}
+.columnas {
+	display:block;
+	position: relative;
+}
+.columna_izq {
+	float: left;
+	text-align: right;
+	margin: 0px 100px 100px 0px;
+}
+.iphone {
+	float: left;
+	margin: 0px 100px 100px 0px;
+}
+.columna_der {
+	float: left;
+	margin: 0px 100px 100px 0px;
+}
+.hostro {
+	text-align: center;
+}
+.pricing{
+	background-image: url(./assest/pricing-bg.jpg);
+	background-size: cover;
+	text-align: center;
+	height: 300px
+	color:#fff;
+	font-family: 'Open Sans';
+	padding: 50px;
+}
+.caja_precios {
+	display: inline-block;
+	float:left;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	width: 100px;
+	text-align: center;
+}
+.hosting {
+	clear: both;
+	background-color: #00282e;
+	color: #fff;
+	height: 50px;
+	font-family: 'Open Sans';
+	text-align: center;
+	padding: 50px;
+}
+span	{
+	color: #007fff;
+}
+.pie {
+	background-color: #1d1d1d;
+	font-family: 'Open Sans';
+	height: 50px;
+}
+.texto {
+	font-size: 12px;
+	color: #fff;
+}
+.iconos:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35)
+}
+.iconos {
+ -webkit-transition: 1.3s ease-in-out;
+    -moz-transition: 1.3s ease-in-out;
+    -o-transition: 1.3s ease-in-out;
+    transition: 1.3s ease-in-out;
+}
+.buscador {
+	height: 80px;
+	width: 500px;
+}
+.boton {
+	height: 80px;
+	width: 100px;
+	background-color: #007fff;
+	color: #fff;
+}

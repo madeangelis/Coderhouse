@@ -1,0 +1,76 @@
+.logo {
+	float: left;
+	padding: 20px;
+}
+nav {
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+}
+ul {
+	margin-right: 100px;
+}
+li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+}
+#home {
+	height: 15px;
+	padding-left: 100px;
+}
+.banner {
+	padding: 100px 50px;
+	background-size: cover;
+	text-align: center;
+	height: 300px;
+	margin: 0px;
+	position: relative;
+	background-image: url(./assests/indexbanner-bg3.jpg);
+	color:#fff;
+	font-family: 'Open Sans';
+	clear: both;
+}
+#texto_banner {
+	padding-top: 100px;
+	padding-right: 300px;
+	font-size: 20px;
+}
+.circuloscolores {
+	text-align: center;
+	font-family: Raleway;
+}
+.uno {
+	float: left;
+	margin: 20px;
+}
+.azul{
+	margin-left: 200px;
+}
+.dos {
+	float: left;
+	transform: rotate(90deg);
+	margin: 30px 50px 50px 20px;
+
+}
+.clearfix {
+	clear: both;
+}
+.columnas {
+	display:block;
+}
+.columna_izq {
+	float: left;
+	text-align: right;
+	margin: 0px 100px 100px 0px;
+}
+.iphone {
+	float: left;
+	margin: 0px 100px 100px 0px;
+}
+.columna_der {
+	float: left;
+	margin: 0px 100px 100px 0px;
+}
+.hostro {
+	text-align: center;
+}
