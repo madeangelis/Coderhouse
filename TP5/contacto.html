@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Contact Hostro</title>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="./TP5.html">
+				<img id="home" src=".\assest\header-logo.png">
+			</a>
+		</div>
+		 <nav id="nav">
+		 	<ul>
+		 		<li><a href="./TP5.html"/>Home</a></li>
+				<li><a href="./contacto.html">Contact</a></li>
+		 	</ul>
+			</nav> 
+	</header>
+	<section class="banner_dos">
+		<div class="banner_contacto">
+		<h3>Seguir en contacto</h3>
+		<p>Deja tus datos para que podamos seguir en contacto</p></div>
+	</section>
+	<section class="formulario">
+	   <form action="http://send-contact.herokuapp.com/send" method="post">
+
+	      <input name="toEmail" type="hidden" value="tu@email.com">
+
+	      <input name="toSubject" type="hidden" value="Email desde formulario de contacto">
+
+	      <input name="toRedirect" type="hidden" value="http://misitio.com/email-enviado.html">
+
+	      <label>Email</label><input name="fromEmail" type="email"><br>
+
+	      <label>Nombre</label><input name="fromName" type="text"><br>
+
+	      <label>Apellido</label><input name="fromName" type="text"><br>
+
+	      <label>Mensaje</label><textarea name="fromMessage"></textarea>
+
+	      <input type="submit" value="Enviar">
+
+	   </form>
+	  </section>
+	<section class="hosting">
+		<div class"clearfix">
+			<p>Hosting use <b>500,000</b> happy customers. Want to se services?</p>
+		</div>
+	</section>
+	<footer>
+		<div class="pie">
+			<div class="logo">
+				<p class="texto">@ 2016 all rights reserved
+				</p>
+			</div>
+			<nav id="nav">
+	 			<ul>
+					<li><a href="./TP5.html"/>Home</a></li>
+					<li><a href="./contacto.html">Contact</a></li>
+				</ul>
+			</nav>	
+		</div>
+	</footer>
+</body>
+</html>

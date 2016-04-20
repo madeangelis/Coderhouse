@@ -124,13 +124,3 @@ span	{
     -o-transition: 1.3s ease-in-out;
     transition: 1.3s ease-in-out;
 }
-.buscador {
-	height: 80px;
-	width: 500px;
-}
-.boton {
-	height: 80px;
-	width: 100px;
-	background-color: #007fff;
-	color: #fff;
-}
