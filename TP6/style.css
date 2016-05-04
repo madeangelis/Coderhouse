@@ -1,0 +1,215 @@
+.logo {
+	float: left;
+	padding: 20px;
+}
+nav {
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+}
+ul {
+	margin-right: 100px;
+}
+li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+}
+#home {
+	height: 15px;
+	padding-left: 100px;
+}
+.banner {
+	padding: 100px 50px;
+	background-size: cover;
+	text-align: center;
+	height: 300px;
+	margin: 0px;
+	position: relative;
+	background-image: url(./assest/indexbanner-bg3.jpg);
+	color:#fff;
+	font-family: 'Open Sans';
+	clear: both;
+	z-index: 3;
+}
+#texto_banner {
+	padding-top: 100px;
+	padding-right: 300px;
+	font-size: 20px;
+}
+.circuloscolores {
+	text-align: center;
+	font-family: Raleway;
+}
+.uno {
+	float: left;
+	margin: 20px;
+}
+.azul{
+	margin-left: 200px;
+}
+.dos {
+	float: left;
+	transform: rotate(90deg);
+	margin: 30px 50px 50px 20px;
+}
+.clearfix {
+	clear: both;
+}
+.columnas {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.columna_izq {
+	float: left;
+	text-align: right;
+	margin-right: 120px;
+}
+.iphone {
+	float: left;
+	width: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.columna_der {
+	float: right;
+}
+.hostro {
+	text-align: center;
+}
+.pricing{
+	background-image: url(./assest/pricing-bg.jpg);
+	background-size: cover;
+	text-align: center;
+	height: 300px
+	color:#fff;
+	font-family: 'Open Sans';
+	padding: 50px;
+}
+.cajas {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.caja_precios {
+	background-color: #fff;
+	display: block;
+	float:left;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	width: 200px;
+	text-align: center;
+	margin-left: 20px;
+	margin-bottom: -40px;
+	font-family: 'Open Sans';
+}
+.boton_plan {
+	background-color: #007fff;
+	color: #fff;
+	font-family: "Raleway";
+	font-weight: bold;
+	width: 90%;
+	height: 30px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.hosting {
+	clear: both;
+	background-color: #00282e;
+	color: #fff;
+	height: 50px;
+	font-family: 'Open Sans';
+	font-size: 25px;
+	text-align: center;
+	padding: 50px;
+}
+.pie {
+	background-color: #1d1d1d;
+	font-family: 'Open Sans';
+	height: 50px;
+}
+.texto {
+	font-size: 12px;
+	color: #fff;
+}
+.iconos:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35)
+}
+.iconos {
+	z-index: 7;
+ 	-webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+.buscador {
+	height: 80px;
+	width: 500px;
+	padding: 0px;
+	font-size: 25px;
+}
+.boton {
+	height: 80px;
+	width: 100px;
+	background-color: #007fff;
+	color: #fff;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+form {
+	display: inline;
+	text-align: center;
+	border: 0px;
+}
+.domain	{
+	margin-top: -20px;
+	z-index: 10;
+	position: relative;
+}
+nav:link {
+	color: #007fff;
+	text-decoration: none;
+}
+nav:hover {
+	text-decoration: none;
+}
+.precio {
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	color: black;
+}
+span {
+	font-size: 0.5em;
+}
+b {
+	color: #007fff;
+}
+/*CONTACTO*/
+.banner_contacto	{
+	font-size: 20px;
+}
+.banner_dos {
+	padding: 100px 50px;
+	background-size: cover;
+	text-align: center;
+	height: 200px;
+	margin: 0px;
+	position: relative;
+	background-image: url(./assest/indexbanner-bg2.jpg);
+	color:#fff;
+	font-family: 'Open Sans';
+	clear: both;
+	z-index: 3;
+}
+.formulario {
+	height: 250px;
+	text-align: center;
+}
+@media screen and (max-width: 768px) {
+	
+}
+
